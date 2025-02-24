@@ -1,0 +1,9 @@
+{
+    "ansible.python.interpreterPath": "",
+    "python.defaultInterpreterPath": "/home/josias/.virtualenvs/impromptu/bin/python"
+}
+{
+  "python.pythonPath": "~/.virtualenvs/impromptu/bin/python",
+  "python.linting.enabled": true,
+  "files.autoSave": "afterDelay"
+}
