@@ -2,6 +2,13 @@ from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
 from topics.models import Topic,Category
 
+from django.http import HttpResponse
+
+
+def index(request):
+    return HttpResponse("Hello, world. You're at the topics index.")
+
+
 def TopicList(request):
     topics = Topic.objects.all().order_by('-publish')
     categories = Category.objects.filter(parent__isnull=True)
